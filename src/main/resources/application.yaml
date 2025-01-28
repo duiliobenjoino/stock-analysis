@@ -1,0 +1,10 @@
+openai:
+  api:
+    base-url: "https://api.openai.com/v1/chat/completions"
+    key: ${OPENAI_TOKEN:"test"}
+
+brapi:
+  api:
+    base-url: "https://brapi.dev/api"
+    key: ${BRAPI_TOKEN:"test"}
+
