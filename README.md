@@ -43,17 +43,19 @@ A recomendação obtida **NÃO** deveria ser utilizada, uma vez que se trata ape
    ```
 
 2. **Configure as variáveis de ambiente:**
+   
    Defina as variáveis de ambiente `OPENAI_TOKEN` e `BRAPI_TOKEN` no seu sistema operacional:
    ```bash
    export OPENAI_TOKEN=sua-chave-openai
    export BRAPI_TOKEN=sua-chave-brapi
    ```
-   Alternativamente, você pode configurar estas variáveis diretamente no arquivo `application.properties` em `src/main/resources/`:
+   Alternativamente, você pode configurar estas variáveis diretamente no arquivo `application.yaml` em `src/main/resources/`:
    ```properties
    openai.api.key=${OPENAI_TOKEN}
    brapi.api.key=${BRAPI_TOKEN}
 
 3. **Execute o sistema:**
+   
    Certifique-se de que você possui o Maven e o Java 21 instalados e execute os comandos:
    ```bash
    mvn clean install
@@ -70,7 +72,7 @@ A aplicação permite consultar informações de uma ação e obter análises de
 
 **Endpoint:**
 ```
-GET /api/v1/stock-analysis
+GET /stock/analysis
 ```
 
 **Exemplo de chamada com o código da ação PETR4:**
