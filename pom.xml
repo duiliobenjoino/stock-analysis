@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.db</groupId>
-	<artifactId>stockAnalysis</artifactId>
+	<artifactId>stock_analysis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Stock analysis</name>
 	<description>Stock analysis</description>

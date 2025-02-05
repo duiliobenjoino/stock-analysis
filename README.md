@@ -15,7 +15,7 @@ A recomendação obtida **NÃO** deveria ser utilizada, uma vez que se trata ape
 │   │   ├── java/         # Código em Java
 │   │   │   └── com/
 │   │   │       └── db/
-│   │   │           └── stockAnalysis/
+│   │   │           └── stock_analysis/
 │   │   │               ├── domain/        # Lógica de negócios
 │   │   │               └── infrastructure/ # Integrações e camada de controller
 │   │   └── resources/    # Arquivos de configuração e templates
